@@ -1,0 +1,8 @@
+[Unit]
+Description=Wattometer LED strip controller
+
+[Service]
+ExecStart=/usr/bin/python /home/tami/dev/power-meter/controller/raspi.py
+
+[Install]
+WantedBy=default.target

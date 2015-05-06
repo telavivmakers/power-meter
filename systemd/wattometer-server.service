@@ -1,0 +1,8 @@
+[Unit]
+Description=Wattometer data server
+
+[Service]
+ExecStart=/home/tami/dev/power-meter/server/socat.sh
+
+[Install]
+WantedBy=default.target

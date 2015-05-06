@@ -1,0 +1,8 @@
+[Unit]
+Description=Wattometer data logger
+
+[Service]
+ExecStart=/usr/bin/python /home/tami/dev/power-meter/logger/logger.py
+
+[Install]
+WantedBy=default.target
